@@ -25,13 +25,13 @@ export const startDemo = async props => {
   //   accounts[0]
   // );
 
-  // const eventStore = await T.EventStore.New(W3.TX.txParamsDefaultDeploy(accounts[0]))
-  // console.log('eventStore: ', eventStore.address)
+  const eventStore = await T.EventStore.New(W3.TX.txParamsDefaultDeploy(accounts[0]))
+  console.log('eventStore: ', eventStore.address)
 
   // First, we grab the EventStore Contract:
-  const eventStore = await T.EventStore.At(
-    '0x057d4e4cb4568426600fea17ec3e51192c487e17'
-  );
+  // const eventStore = await T.EventStore.At(
+  //   '0x057d4e4cb4568426600fea17ec3e51192c487e17'
+  // );
 
   const events = [
     {

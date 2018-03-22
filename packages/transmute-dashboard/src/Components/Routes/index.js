@@ -19,13 +19,13 @@ const handleAuthentication = (nextState, replace) => {
   }
 }
 
-
 class Routes extends React.Component {
   render() {
     return (
       <div>
         {/* <Demo /> */}
         <Route exact={true} path="/" component={Demo} />
+        <Route exact={true} path="/esign" component={Demo} />
         <Route exact={true} path="/login" component={Login} />
         <Route path="/callback" render={(props) => {
           handleAuthentication(props);
