@@ -1,5 +1,4 @@
 import * as T from 'transmute-framework';
-import { W3 } from 'soltsice';
 
 export const createFactory = async () => {
   const { relic, eventStoreAdapter, readModelAdapter } = window.TT;
