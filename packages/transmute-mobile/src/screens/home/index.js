@@ -2,10 +2,6 @@ import React, { Component } from "react";
 import { ImageBackground, View, StatusBar } from "react-native";
 import { Container, Button, H3, Text } from "native-base";
 
-// import { connect } from 'react-redux';
-// import { bindActionCreators } from 'redux';
-// import { default as transmuteRedux } from '../../transmute';
-
 import styles from "./styles";
 
 class Home extends Component {
@@ -39,20 +35,5 @@ class Home extends Component {
     );
   }
 }
-
-// const mapStateToProps = (state, ownProps) => {
-//   return {
-//     ...state,
-//     transmute: state.transmute
-//   };
-// };
-
-// function mapDispatchToProps(dispatch) {
-//   return {
-//     actions: bindActionCreators(transmuteRedux.actionCreators, dispatch)
-//   };
-// }
-
-// export default connect(mapStateToProps, mapDispatchToProps)(Home);
 
 export default Home;

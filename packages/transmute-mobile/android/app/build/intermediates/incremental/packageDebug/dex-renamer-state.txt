@@ -1,0 +1,4 @@
+#Thu Mar 22 10:42:50 CDT 2018
+base.0=/Users/ericolszewski/Developer/Transmute/projects/transmute/packages/transmute-mobile/android/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
+renamed.0=classes.dex
+file.0=/Users/ericolszewski/Developer/Transmute/projects/transmute/packages/transmute-mobile/android/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex
